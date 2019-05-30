@@ -1,0 +1,44 @@
+# words should look like this:
+# word0-word1
+# word0-word1-word2
+# word0-word1-word2-word3
+# and so on...
+
+backen-buk-bake
+beginnen-begann-begin
+bitten-bat-ask
+bleiben-blieb-stay
+brechen-brach-break
+bringen-brachte-bring
+denken-dachte-think
+durfen-durfte-be able
+empfangen-empfing-receive
+entscheiden-entschied-decide
+essen-aB-eat
+fahren-fuhr-drive
+fallen-fiel-fall
+fangen-fing-catch
+finden-fand-find
+fliegen-flog-fly
+geben-gab-give
+gehen-ging-go
+gelingen-gelang-success
+gelten-galt-be valid
+geschehen-geschah-happen
+gewinnen-gewann-win
+haben-hatte-have
+halten-hielt-hold
+hangen-hing-hang
+heiBen-hieB-be called
+helfen-half-help
+kennen-kannte-know
+kommen-kam-come
+laden-lud-load
+lassen-lieB-allow
+laufen-lief-run
+leiden-litt-suffer
+lesen-las-read
+liegen-lag-lie
+messen-maB-measure
+mogen-mochte-like
+mussen-musste-must
