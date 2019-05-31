@@ -112,7 +112,6 @@ def main(path: str):
 
         # prompting user with the word to input
         correct = ask(words[chosen], to_guess)
-        print('correct:', correct)
         answer = input('>')
 
         # if the -i flag is set, convert all the strings to lowercase
