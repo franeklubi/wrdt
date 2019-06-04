@@ -4,6 +4,7 @@ from typing import List
 from difflib import SequenceMatcher as SM
 import argparse
 import os.path
+import sys
 
 from Word import *
 
@@ -158,6 +159,9 @@ if __name__ == '__main__':
         points_max = args.points_max
 
     if ( validateFile(args.path) ):
-        main(args.path)
+        try:
+            main(args.path)
+        except (KeyboardInterrupt, SystemExit):
+            sys.exit('')
     else:
         parser.error('wrong path >:(')
