@@ -31,6 +31,14 @@ args = parser.parse_args()
 
 
 def validateFile(path: str) -> bool:
+    """
+    Args:
+        path (str):     path to check
+
+    Returns:
+        bool:           True if the path exists, False otherwise
+    """
+
     if ( not os.path.exists(path) ):
         return False
     return True
@@ -85,7 +93,16 @@ def ask(word: Word, to_guess: int) -> str:
     return answer
 
 
-def isCorrect(correct, answer):
+def isCorrect(correct: str, answer: str) -> bool:
+    """
+    Args:
+        correct (str):  the correct word to check against
+        answer (str):   the user's answer
+
+    Returns:
+        bool:           True if the answer is correct, false otherwise
+    """
+
     if ( args.lean ):
         # if the word similarity is over 70%, cut it a lil slack mate
         return SM(None, correct, answer).ratio() > 0.70
