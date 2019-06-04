@@ -49,12 +49,13 @@ def loadData(path: str) -> List[Word]:
 
     with open(path) as f:
         for line in f:
+            word_list = [word.strip() for word in str(line).split('-')]
             if ( ':' in line or '#' in line or line.strip() == '' ):
                 continue
+            elif ( len(word_list) < 2 ):
+                print('line \'%s\' not imported' % str(line).strip())
             else:
-                words.append(
-                    Word([word.strip() for word in str(line).split('-')])
-                )
+                words.append(Word(word_list))
 
     return words
 
