@@ -18,9 +18,9 @@ wrdt.py [-h] [-p N] [-l] [-i] path
 
 ## Args
 
-- flag -i 'ignore-case' ignores case when checking the input
-- flag  -l 'lean' ignores like everything, You'd have to be like at least 70% correct to score a point, heresy
-- param -p lets You set the amount of points (per word) You want to score before it gets removed from the current session, **and from Your computer, and from the dictionary, hopefully**
+- flag `-i` 'ignore-case' ignores case when checking the input
+- flag  `-l` 'lean' ignores like everything, You'd have to be like at least 70% correct to score a point, heresy
+- param `-p` lets You set the amount of points (per word) You want to score before it gets removed from the current session, **and from Your computer, and from the dictionary, hopefully**
 
 ## Words file
 
